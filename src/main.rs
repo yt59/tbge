@@ -1,3 +1,5 @@
+mod opt;
+
 fn main() {
-    println!("Hello, world!");
+    println!("Hello, world!\n{}", opt::Deck::new_shuffled());
 }
